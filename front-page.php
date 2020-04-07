@@ -8,10 +8,10 @@
       <div class="area-menu" id="ir-para-menu">
         <ul class="menu">
           <li class="item it1 menu-expandido"><a><span class="glyphicon glyphicon-menu-hamburger"></span></a></li>
-          <li class="item it2"><a href="#">Contatos</a></li>
-          <li class="item it3"><a href="#">Eventos</a></li>
+          <li class="item it2"><a href="<?php echo get_permalink(get_page_by_path('contatos')) ?>">Contatos</a></li>
+          <li class="item it3"><a href="<?php echo esc_url(get_category_link(get_category_by_slug('congressos-e-seminarios')->term_id));?>">Eventos</a></li>
           <li class="item it4"><a href="<?php echo get_permalink(get_page_by_path('noticias')) ?>">Notícias</a></li>
-          <li class="item it5"><a href="#">Perguntas frequentes</a></li>
+          <li class="item it5"><a href="<?php echo get_permalink(get_page_by_path('perguntas-frequentes')) ?>">Perguntas frequentes</a></li>
         </ul>
       </div>
       <div class="area-busca">
