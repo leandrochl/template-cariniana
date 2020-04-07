@@ -1,7 +1,12 @@
 <?php get_header('single'); ?>
 
+<div class="container">
+  <div class="conteudo-page">
+    <div class="titulo-page">
+      <h1><?php the_title(); ?></h1>
+    </div>
 
-<?php the_title(); ?>
+
 
 <?php
 
@@ -12,5 +17,6 @@
         endif;
 
     ?>
-
+</div>
+</div>
 <?php get_footer(); ?>

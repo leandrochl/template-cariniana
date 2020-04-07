@@ -52,22 +52,20 @@
 
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Acessibilidade</a></li>
+              <li><a href="http://www.vlibras.gov.br/">Acessibilidade</a></li>
               <li class="separador">|</li>
               <li class="areaAcessibilidade"><a id="popoverAcessibilidade" type="button" data-container="body" data-toggle="popover" data-placement="bottom">A<span class="aMenor">A</span></a></li>
               <li class="separador">|</li>
               <a href="http://www.vlibras.gov.br/" target="_blank"><img src="#" alt="Vlibras" style="margin-bottom: -10px; margin-left:20px;" /></a>
             </ul>
-
-
           </div>
         </div>
       </nav>
     </div>
     <div id="barra-superior-2">
       <div class="container">
-        <div class="row">
-          <div class="col-md-7">
+        <div class="row" style="margin-bottom: 15px;">
+          <div class="col-md-12">
             <div id="ancoras">
               <a href="#ir-para-busca">Ir para busca</a> |
               <a href="#ir-para-menu">Ir para o menu</a> |
@@ -75,25 +73,26 @@
               <a href="#rodape">Ir para rodapé</a>
             </div>
           </div>
-          <div class="col-md-5 text-right">
-            <h3>0 <img src="" alt="" /> | 0 de março</h3>
-          </div>
         </div>
         <div class="row">
-          <div class="col-md-8 titulo-portal">
+          <div class="col-md-8 col-xs-12 titulo-portal">
             <!-- <img src="wp-content/themes/carinianaTemplate/img/logo-cariniana.png" width="100" height="100" style="float: left; margin-right: 10px"> -->
             <img src="<?php echo get_template_directory_uri(); ?>/img/logo-cariniana.png" width="100" height="100" style="float: left; margin-right: 10px">
             <h1><strong><a href="<?php echo get_home_url(); ?>">Portal da Rede Cariniana</a></strong></h1>
             <h5><a href="http://www.ibict.br/"> IBICT - Instituto Brasileiro de Informação em Ciência e Tecnologia</a></h5>
             <h5><a href="http://www.mctic.gov.br/portal">MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES</a></h5>
           </div>
-          <div class="col-md-4 text-right">
+          <div class="col-md-4 col-xs-12 text-right">
             <div id="icones">
-              <a href="#" target="_blank"><span class="icon-youtube"></span></a>
-              <a href="#" target="_blank"><span class="icon-whatsapp"></span></a>
-              <a href="#" target="_blank"><span class="icon-instagram"></span></a>
-              <a href="#" target="_blank"><span class="icon-twitter"></span></a>
-              <a href="#" target="_blank"><span class="icon-facebook"></span></a>
+              <a href="https://www.youtube.com/channel/UC7pJ4CrMcF7WVYsWjic-nsg" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/yt_icon_g.png" class="sn_icon">
+              </a>
+              <a href="https://twitter.com/Rede_Cariniana" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/tt_icon_g.png" class="sn_icon">
+              </a>
+              <a href="https://www.facebook.com/redecariniana" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/fb_icon_g.png" class="sn_icon">
+              </a>
             </div>
           </div>
         </div>

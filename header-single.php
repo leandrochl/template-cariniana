@@ -83,10 +83,32 @@
             <h5><a href="http://www.ibict.br/"> IBICT - Instituto Brasileiro de Informação em Ciência e Tecnologia</a></h5>
             <h5><a href="http://www.mctic.gov.br/portal">MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES</a></h5>
           </div>
-          <div class="col-md-4 div-icon-menu-single">
-            <div class="">
+          <div class="col-md-4">
+            <div class="div-icon-menu-single">
               <span class="glyphicon glyphicon-menu-hamburger" id="icon-menu-single"></span>
-              <div class="menu-navigation-header-single" id="menu-navigation-single">asas</div>
+            </div>
+            <div id="arrow-up-single"></div>
+            <div class="menu-navigation-header-single" id="menu-navigation-single">
+              <div class="row">
+                <div class="col-md-6 col-sm-6 block-menu">
+                  <h4>Sobre</h4>
+                  <p><a href="<?php echo get_permalink(get_page_by_path('ibict')) ?>">IBICT</a></p>
+                  <p><a href="<?php echo get_permalink(get_page_by_path('cariniana')) ?>">Cariniana</a></p>
+                  <p><a href="<?php echo get_permalink(get_page_by_path('linha-do-tempo')) ?>">Linha do Tempo</a></p>
+                  <p><a href="<?php echo get_permalink(get_page_by_path('mapa-da-rede-cariniana')) ?>">Mapa da Rede Cariniana</a></p>
+                  <p><a href="<?php echo get_permalink(get_page_by_path('preservacao-digital')) ?>">Preservação Digital</a></p>
+                  <p><a href="<?php echo get_permalink(get_page_by_path('parcerias-da-rede')) ?>">Parcerias da Rede</a></p>
+                  <p><a href="<?php echo get_permalink(get_page_by_path('grupo-de-pesquisa')) ?>">Grupo de Pesquisa</a></p>
+                </div>
+
+                <div class="col-md-6 col-sm-6 block-menu">
+                  <h4>Apoio</h4>
+                  <p><a href="<?php echo get_permalink(get_page_by_path('contatos')) ?>">Contatos</a></p>
+                  <p><a href="<?php echo esc_url(get_category_link(get_category_by_slug('congressos-e-seminarios')->term_id));?>">Eventos</a></p>
+                  <p><a href="<?php echo get_permalink(get_page_by_path('noticias')) ?>">Notícias</a></p>
+                  <p><a href="<?php echo get_permalink(get_page_by_path('perguntas-frequentes')) ?>">Perguntas Frerquentes</a></p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
