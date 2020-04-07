@@ -46,13 +46,13 @@
 
     <div class="carousel-inner" role="listbox">
       <div class="item active" onclick="">
-        <div style="background: #000 url('wp-content/themes/carinianaTemplate/img/banner-img-3.png') center / cover; width: 100%; height: 425px"></div>
+        <div style="background: #000 url('<?php echo get_template_directory_uri(); ?>/img/banner-img-3.png') center / cover; width: 100%; height: 425px"></div>
       </div>
       <div class="item" onclick="">
-        <div style="background: #000 url('wp-content/themes/carinianaTemplate/img/banner-img-1.png') center / cover; width: 100%; height: 425px"></div>
+        <div style="background: #000 url('<?php echo get_template_directory_uri(); ?>/img/banner-img-1.png') center / cover; width: 100%; height: 425px"></div>
       </div>
       <div class="item " onclick="">
-        <div style="background: #000 url('wp-content/themes/carinianaTemplate/img/banner-img-2.png') center / cover; width: 100%; height: 425px"></div>
+        <div style="background: #000 url('<?php echo get_template_directory_uri(); ?>/img/banner-img-2.png') center / cover; width: 100%; height: 425px"></div>
       </div>
     </div>
     <div class="clearfix"></div>
