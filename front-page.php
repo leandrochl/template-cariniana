@@ -107,22 +107,12 @@
 
 <hr class="hr-front">
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-6">
-      <div id="div_titulo_ultimas_noticias">
-        <span class="titulo-front"><strong>Galeria de Imagens</strong></span>
-      </div>
-      <div id="sample_slider">
-        <?php echo do_shortcode('[slide-anything id="53"]'); ?>
-      </div>
-    </div>
-    <div class="col-md-6">
-
-    </div>
+  <div class="div-slider">
+    <?php if( function_exists('wd_slider') ) { wd_slider(1); } ?>
   </div>
-</div>
-
+  <div class="div-mais-fotos">
+    <a href="<?php echo get_permalink(get_page_by_path('galeria-de-imagens')) ?>">MAIS FOTOS</a>
+  </div>
 
 
 <?php get_footer(); ?>
