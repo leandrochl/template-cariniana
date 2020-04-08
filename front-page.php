@@ -108,7 +108,7 @@
 <hr class="hr-front">
 
   <div class="div-slider">
-    <?php if( function_exists('wd_slider') ) { wd_slider(1); } ?>
+    <?php if( function_exists('wd_slider') ) { wd_slider(2); } ?>
   </div>
   <div class="div-mais-fotos">
     <a href="<?php echo get_permalink(get_page_by_path('galeria-de-imagens')) ?>">MAIS FOTOS</a>
