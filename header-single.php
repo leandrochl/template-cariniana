@@ -66,7 +66,7 @@
     </div>
     <div id="barra-superior-single">
       <div class="container">
-        <div class="row">
+        <div class="row" style="margin-bottom: 15px;">
           <div class="col-md-7">
             <div id="ancoras">
               <a href="#ir-para-busca">Ir para busca</a> |

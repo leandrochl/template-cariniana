@@ -15,12 +15,7 @@
         </ul>
       </div>
       <div class="area-busca">
-        <form action="#" method="get">
-          <input type="text" value="" class="txt-busca" placeholder="Buscar no portal" name='s' id='s' />
-          <div class="btn-procurar">
-            <span class="glyphicon glyphicon-search"></span>
-          </div>
-        </form>
+        <?php get_search_form(); ?>
       </div>
       <div class="clearfix"></div>
     </div>

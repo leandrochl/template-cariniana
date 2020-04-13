@@ -2,7 +2,9 @@
 
 
 <div class="container">
-
+  <div class="link_home">
+    <a href="<?php echo get_home_url(); ?>"><span class="glyphicon glyphicon-home"></span> Início</a>
+  </div>  
   <div class="conteudo-archive">
     <div class="titulo-archive">
       <h1><?php single_cat_title(); ?></h1>

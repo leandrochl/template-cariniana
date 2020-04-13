@@ -9,7 +9,9 @@ $wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish
 <?php if ( $wpb_all_query->have_posts() ) : ?>
 
   <div class="container">
-
+    <div class="link_home">
+      <a href="<?php echo get_home_url(); ?>"><span class="glyphicon glyphicon-home"></span> Início</a>
+    </div>    
     <div class="conteudo-archive">
       <div class="titulo-archive">
         <h1><?php the_title(); ?></h1>
