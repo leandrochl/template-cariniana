@@ -202,6 +202,10 @@ a, a:hover, a:focus {color:#515151;}
   margin-left: 20px;
 }
 
+/* #barra-superior-single .area-busca-single .txt-busca {float: right; height: 50px; width: 89%; border: 0px; padding-left: 20px; border-radius: 30px 0px 0px 30px;}
+#barra-superior-single .area-busca-single {cursor: pointer;float: left; height: 50px; width: 50px; font-size: 25px; text-align: center; padding-top: 10px;background-color: white;border-radius: 0px 30px 30px 0px;}
+#barra-superior-single .area-busca-single .btn-procurar button{background-color: white; border: 0px;} */
+
 
 
 /* FOOTER */
@@ -379,4 +383,24 @@ background-repeat:no-repeat; }
 .link_home a:hover{
   color: #BCC5A4;
   text-decoration: none;
+}
+
+#container-redes-sociais .feed{
+  height: 500px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+#container-redes-sociais{
+  margin-top: 80px;
+}
+.hr-redes-sociais{
+  border: 1px solid #BCC5A4;;
+}
+.feed-twitter{
+  border-right: 0.5px solid #eee;
+  padding-right: 40px;
+}
+.feed-facebook{
+  border-left: 0.5px solid #eee;
+  padding-left: 40px;
 }

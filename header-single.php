@@ -84,6 +84,9 @@
             <h5><a href="http://www.mctic.gov.br/portal">MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES</a></h5>
           </div>
           <div class="col-md-4">
+            <!-- <div class="area-busca-single">
+              <?php get_search_form(); ?>
+            </div> -->
             <div class="div-icon-menu-single">
               <span class="glyphicon glyphicon-menu-hamburger" id="icon-menu-single"></span>
             </div>

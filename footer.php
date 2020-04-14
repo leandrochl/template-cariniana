@@ -1,14 +1,6 @@
-
 <div id="rodape">
 
-
-  <div id="ante-rodape">
-
-    <!-- <a href="#">Mapa do Site</a>
-    <a href="http://www.df.gov.br/index.php/category/duvidas-frequentes/">Dúvidas frequentes</a> -->
-  </div>
-
-
+  <div id="ante-rodape"></div>
 
   <div id="rodape-principal">
     <div class="container">
@@ -35,14 +27,14 @@
         <div class="col-md-4 col-sm-4">
           <h2>REDES SOCIAIS</h2>
           <div id="icones-rodape">
-            <a href="https://www.youtube.com/channel/UC7pJ4CrMcF7WVYsWjic-nsg" target="_blank">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/yt_icon_w.png" class="sn_icon">
+            <a href="https://www.facebook.com/redecariniana" target="_blank">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/fb_icon_w.png" class="sn_icon">
             </a>
             <a href="https://twitter.com/Rede_Cariniana" target="_blank">
               <img src="<?php echo get_template_directory_uri(); ?>/img/tt_icon_w.png" class="sn_icon">
             </a>
-            <a href="https://www.facebook.com/redecariniana" target="_blank">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/fb_icon_w.png" class="sn_icon">
+            <a href="https://www.youtube.com/channel/UC7pJ4CrMcF7WVYsWjic-nsg" target="_blank">
+              <img src="<?php echo get_template_directory_uri(); ?>/img/yt_icon_w.png" class="sn_icon">
             </a>
           </div>
         </div>
