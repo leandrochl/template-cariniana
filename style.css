@@ -153,7 +153,7 @@ a, a:hover, a:focus {color:#515151;}
 #icones img:hover{filter:brightness(0.9)}
 .area-fale-governo .area-sociais .panel-body #icones a{margin-top:10px;}
 
-#topo-site #barra-superior-single{margin-top:30px;background-color: #617832;border-bottom: 5px solid #bcc5a4;}
+#topo-site #barra-superior-single{padding-top: 30px; background-color: #617832;border-bottom: 5px solid #bcc5a4;}
 #topo-site #barra-superior-single .titulo-portal-single a{color: white}
 #topo-site #barra-superior-single h3, h1{font-size: 30px; margin: 0; color: #515151;}
 #topo-site #barra-superior-single #ancoras{ font-size: 12px;}
@@ -167,13 +167,14 @@ a, a:hover, a:focus {color:#515151;}
 #topo-site #barra-superior-single #ancoras a{color: white;}
 #icones img:hover{filter:brightness(0.9)}
 .area-fale-governo .area-sociais .panel-body #icones a{margin-top:10px;}
-.div-icon-menu-single{text-align: right;margin-top: 71px;cursor: pointer;font-size: 22px;}
+.div-icon-menu-single{text-align: right;margin-top: 76px;cursor: pointer;font-size: 19px;}
 .div-icon-menu-single .glyphicon{color: white}
+.div-icon-menu-single .span-menu{color: white; font-size: 14px;}
 .menu-navigation-header-single{
     display: none;
     width: 666px;
     height: auto;
-    margin-left: -279px;
+    margin-left: -205px;
     margin-top: 19px;
     position: absolute;
     background-color: #F5F5F5;
@@ -202,9 +203,10 @@ a, a:hover, a:focus {color:#515151;}
   margin-left: 20px;
 }
 
-/* #barra-superior-single .area-busca-single .txt-busca {float: right; height: 50px; width: 89%; border: 0px; padding-left: 20px; border-radius: 30px 0px 0px 30px;}
-#barra-superior-single .area-busca-single {cursor: pointer;float: left; height: 50px; width: 50px; font-size: 25px; text-align: center; padding-top: 10px;background-color: white;border-radius: 0px 30px 30px 0px;}
-#barra-superior-single .area-busca-single .btn-procurar button{background-color: white; border: 0px;} */
+#barra-superior-single .area-busca-single .txt-busca {float: left; height: 35px; width: 250px; border: 0px; padding-left: 20px; border-radius: 30px 0px 0px 30px;}
+#barra-superior-single .area-busca-single .search-content {float: right;}
+#barra-superior-single .area-busca-single .btn-procurar{cursor: pointer;float: right; height: 35px; width: 50px; font-size: 15px; text-align: center; padding-top: 10px;background-color: white;border-radius: 0px 30px 30px 0px;}
+#barra-superior-single .area-busca-single .btn-procurar button{background-color: white; border: 0px;}
 
 
 

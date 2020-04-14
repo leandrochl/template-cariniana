@@ -42,6 +42,8 @@
     </div>
   </div>
 
+  <script defer="defer" src="//barra.brasil.gov.br/barra.js" type="text/javascript"></script>
+
   <!-- <div id="rodape-mobile">
     <div class="container">
       <div class="row margin-bottom-40">

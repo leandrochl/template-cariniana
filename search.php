@@ -1,10 +1,10 @@
 <?php get_header('single'); ?>
 
 
-<div class="container">
+<div class="container" id="conteudo-portal">
   <div class="link_home">
     <a href="<?php echo get_home_url(); ?>"><span class="glyphicon glyphicon-home"></span> Início</a>
-  </div>  
+  </div>
   <div class="titulo-page"><h1>Resultados da busca para "<?php echo get_search_query(); ?>"</h1></div>
   <div class="conteudo-archive">
     <div class="titulo-archive">

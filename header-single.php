@@ -14,55 +14,15 @@
 
 <body>
   <div id="topo-site">
-    <div id="barra-superior">
-      <nav class="navbar navbar-default">
-        <div class="container">
-
-          <!-- Menu para mobile -->
-          <div class="navbar-header">
-            <div class="ico-brand">
-              <a class="navbar-brand" href="#">
-                <img src="#" alt="Portal da Rede Cariniana" />
-              </a>
-            </div>
-
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-
-
-          <!-- Menu para Desktop/Tablet -->
-          <div class="collapse navbar-collapse" id="navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li><a href="#" class="menu-superior-escondido">Sobre Brasília</a></li>
-              <li><a href="#" class="menu-superior-escondido">Sobre o Governo</a></li>
-              <li><a href="#" class="menu-superior-escondido">Serviços</a></li>
-              <li><a href="#" class="menu-superior-escondido">Dúvidas Frequentes</a></li>
-
-              <li><a href="#" target="_blank">Transparência <span class="sr-only">(current)</span></a></li>
-              <li><a href="#" target="_blank">Ouvidoria</a></li>
-              <li><a href="#">Acesso à Informação</a></li>
-              <li><a href="#" target="_blank">Diário Oficial</a></li>
-              <li><a href="#" target="_blank">Agência Brasília</a></li>
-              <li><a href="#" target="_blank">Dados Abertos</a></li>
-
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Acessibilidade</a></li>
-              <li class="separador">|</li>
-              <li class="areaAcessibilidade"><a id="popoverAcessibilidade" type="button" data-container="body" data-toggle="popover" data-placement="bottom">A<span class="aMenor">A</span></a></li>
-              <li class="separador">|</li>
-              <a href="http://www.vlibras.gov.br/" target="_blank"><img src="#" alt="Vlibras" style="margin-bottom: -10px; margin-left:20px;" /></a>
-            </ul>
-
-
-          </div>
-        </div>
-      </nav>
+    <div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0 10px;display:block;">
+      <ul id="menu-barra-temp" style="list-style:none;">
+        <li style="display:inline; float:left;padding-right:10px; margin-right:10px; border-right:1px solid #EDEDED">
+          <a href="http://brasil.gov.br" style="font-family:sans,sans-serif; text-decoration:none; color:white;">Portal do Governo Brasileiro</a>
+        </li>
+        <li>
+          <a style="font-family:sans,sans-serif; text-decoration:none; color:white;" href="http://epwg.governoeletronico.gov.br/barra/atualize.html">Atualize sua Barra de Governo</a>
+        </li>
+      </ul>
     </div>
     <div id="barra-superior-single">
       <div class="container">
@@ -77,18 +37,19 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-8 titulo-portal titulo-portal-single">
+          <div class="col-md-7 titulo-portal titulo-portal-single">
             <img src="<?php echo get_template_directory_uri(); ?>/img/logo-cariniana.png" width="100" height="100" style="float: left; margin-right: 10px">
             <h1><strong><a href="<?php echo get_home_url(); ?>">Portal da Rede Cariniana</a></strong></h1>
             <h5><a href="http://www.ibict.br/"> IBICT - Instituto Brasileiro de Informação em Ciência e Tecnologia</a></h5>
             <h5><a href="http://www.mctic.gov.br/portal">MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES</a></h5>
           </div>
-          <div class="col-md-4">
-            <!-- <div class="area-busca-single">
+          <div class="col-md-5">
+            <div class="area-busca-single" id="ir-para-busca">
               <?php get_search_form(); ?>
-            </div> -->
-            <div class="div-icon-menu-single">
+            </div>
+            <div class="div-icon-menu-single" id="ir-para-menu">
               <span class="glyphicon glyphicon-menu-hamburger" id="icon-menu-single"></span>
+              <!-- <span class="span-menu">Menu</span> -->
             </div>
             <div id="arrow-up-single"></div>
             <div class="menu-navigation-header-single" id="menu-navigation-single">
