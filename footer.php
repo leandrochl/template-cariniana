@@ -1,7 +1,5 @@
 <div id="rodape">
 
-  <div id="ante-rodape"></div>
-
   <div id="rodape-principal">
     <div class="container">
       <div class="row">
