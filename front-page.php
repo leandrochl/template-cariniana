@@ -72,7 +72,7 @@
 
 <hr class="hr-front">
 
-<div id="conteudo-portal">
+<div id="conteudo-portal" style="padding-bottom: 90px;">
 
   <!-- POSTS RECENTES -->
   <?php $the_query = new WP_Query( 'posts_per_page=3' ); ?>
@@ -128,5 +128,6 @@
 
 </div>
 
+<div class="clearfix"></div>
 
 <?php get_footer(); ?>
