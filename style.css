@@ -146,12 +146,14 @@ a, a:hover, a:focus {color:#515151;}
 
 
 /* HEADER */
-#topo-site #barra-superior-2{margin-top:30px;}
 #topo-site #barra-superior-2 h3, h1{font-size: 30px; margin: 0; color: #515151;}
 #topo-site #barra-superior-2 #ancoras{ font-size: 12px;}
-#topo-site #barra-superior-2 #icones {margin-top:15px;}
+#topo-site #barra-superior-2 #icones {margin-top: 43px;}
 #topo-site #barra-superior-2 #icones a{color:white; background:#FBFBFB; width: 38px; height: 38px; line-height: 40px; text-align: center; margin-left: 15px; display: block; float: right; font-size: 21px;}
 #topo-site #barra-superior-2 #icones a:hover {text-decoration: none; border-bottom: 2px solid #617832;}
+#topo-site #barra-superior-2 #icones button{padding: 10px; margin-top: 1px;outline: none; color:#617832;  border-left: 0px; border-right: 0px; border-top: 0px;  border-bottom: 0px; background:#FBFBFB; text-align: center; display: block; float: right; font-size: 16px; border-radius: 2px;}
+#topo-site #barra-superior-2 #icones button:hover {text-decoration: none; border-bottom: 2px solid #617832;}
+#topo-site #barra-superior-2 #icones button:active {background-color: #FBFBFB; border-left: 0px; border-right: 0px; border-top: 0px; border-bottom: 2px solid #617832;}
 #topo-site #barra-superior-2 #icones .sn_icon {width: 30px; height: 30px; margin-top: 4px;}
 #topo-site #barra-superior-2 .titulo-portal a:hover { text-decoration: none;}
 #topo-site #barra-superior-2 .titulo-portal h1{margin-top:15px;}
@@ -159,7 +161,10 @@ a, a:hover, a:focus {color:#515151;}
 #icones img:hover{filter:brightness(0.9)}
 .area-fale-governo .area-sociais .panel-body #icones a{margin-top:10px;}
 
-#topo-site #barra-superior-single{padding-top: 30px; padding-bottom: 18px; background-color: white;}
+#topo-site #barra-superior-2 #div-logo-ibict {text-align: right; padding-right: 7px; margin-top: -26px;}
+#topo-site #barra-superior-2 #div-logo-ibict img{width: 120px;cursor: pointer;}
+
+#topo-site #barra-superior-single{background-color: white;}
 #topo-site #barra-superior-single .titulo-portal-single a{color: #515151;}
 #topo-site #barra-superior-single h3, h1{font-size: 30px; margin: 0; color: #515151;}
 #topo-site #barra-superior-single #ancoras{ font-size: 12px;}
@@ -249,41 +254,76 @@ a, a:hover, a:focus {color:#515151;}
 
 /* BANNER FRONT-PAGE */
 /* menu do banner */
-  .area-banner-top { width: 100%; border-top: 4px solid #617832; height: 433px; border-bottom: 4px solid #617832; margin-top: 30px; margin-bottom: 20px;box-shadow: 0 2px 4px 0 #b9b7b7, 0 2px 60px 0 #b9b7b7;}
-.area-banner-top .area-menu-superior {position: relative; height: 50px; margin-top: 20px; z-index: 10;}
-.area-banner-top .area-menu-superior .img-logo {float: left; height: 50px; width: 190px; margin-right: 20px;}
-.area-banner-top .area-menu-superior .img-logo img {width: 100%;}
-.area-banner-top .area-menu-superior .area-busca-menu {float: right; width: 100%; /*background-color: #FFE425;*/ margin-top:2%;}
-.area-banner-top .area-menu-superior .area-busca-menu .area-busca {height: 50px; width: 46%; float: left;}
-.area-banner-top .area-menu-superior .area-busca-menu .area-busca .txt-busca {float: left; height: 50px; width: 89%; border: 0px; padding-left: 20px; border-radius: 30px 0px 0px 30px;}
-.area-banner-top .area-menu-superior .area-busca-menu .area-menu {float: left; width: 54%;  font-size: 12px; padding-left: 0;}
-.area-banner-top .area-menu-superior .area-busca-menu .area-menu a{color:#444;}
-.area-banner-top .area-menu-superior .area-busca-menu .area-menu .menu {list-style-type:none;}
-.area-banner-top .area-menu-superior .area-busca-menu .area-menu .menu .item {display:inline-block; height: 50px; line-height: 50px; text-align: center; font-weight: 500; font-size:16px;}
-.area-banner-top .area-menu-superior .area-busca-menu .area-menu .menu .item:hover {color: #345088;}
-.area-banner-top .area-menu-superior .area-busca-menu .area-menu .menu .item a{text-decoration:none; color: white;}
-.area-banner-top .area-menu-superior .area-busca-menu .area-menu .menu .item.it1 {width: 2%;margin-left:13px;cursor: pointer} /* menu sanduiche */
-.area-banner-top .area-menu-superior .area-busca-menu .area-menu .menu .item.it2 {width: 19%;}
-.area-banner-top .area-menu-superior .area-busca-menu .area-menu .menu .item.it3 {width: 14%;}
-.area-banner-top .area-menu-superior .area-busca-menu .area-menu .menu .item.it4 {width: 16%;}
-.area-banner-top .area-menu-superior .area-busca-menu .area-menu .menu .item.it5 {width: 36%;}
+#div-menu-banner{position: absolute;z-index: 10;padding-top: 30px;}
+#div-menu-banner .area-menu-superior .img-logo {float: left; height: 50px; width: 190px; margin-right: 20px;}
+#div-menu-banner .area-menu-superior .img-logo img {width: 100%;}
+#div-menu-banner .area-menu-superior .area-busca-menu {float: right; width: 100%; /*background-color: #FFE425;*/ margin-top:2%;}
+#div-menu-banner .area-menu-superior .area-busca-menu .area-busca {height: 50px; width: 46%; float: left;}
+#div-menu-banner .area-menu-superior .area-busca-menu .area-busca .txt-busca {outline: none; float: left; height: 50px; width: 89%; border: 0px; padding-left: 20px; border-radius: 30px 0px 0px 30px;}
+#div-menu-banner .area-menu-superior .area-busca-menu .area-menu {float: left; width: 54%;  font-size: 12px; padding-left: 0;}
+#div-menu-banner .area-menu-superior .area-busca-menu .area-menu a{color:#444;}
+#div-menu-banner .area-menu-superior .area-busca-menu .area-menu .menu {list-style-type:none;}
+#div-menu-banner .area-menu-superior .area-busca-menu .area-menu .menu .item {display:inline-block; height: 50px; line-height: 50px; text-align: center; font-weight: 500; font-size:16px;}
+#div-menu-banner .area-menu-superior .area-busca-menu .area-menu .menu .item:hover {color: #345088;}
+#div-menu-banner .area-menu-superior .area-busca-menu .area-menu .menu .item a{text-decoration:none; color: white;}
+#div-menu-banner .area-menu-superior .area-busca-menu .area-menu .menu .item.it1 {width: 2%;margin-left:13px;cursor: pointer} /* menu sanduiche */
+#div-menu-banner .area-menu-superior .area-busca-menu .area-menu .menu .item.it2 {width: 19%;}
+#div-menu-banner .area-menu-superior .area-busca-menu .area-menu .menu .item.it3 {width: 14%;}
+#div-menu-banner .area-menu-superior .area-busca-menu .area-menu .menu .item.it4 {width: 16%;}
+#div-menu-banner .area-menu-superior .area-busca-menu .area-menu .menu .item.it5 {width: 36%;}
+
+#div-menu-banner #menu .navigation{list-style-type: none;}
+#div-menu-banner #menu .navigation>li{float: left; margin-right: 30px; font-size: 16px; padding: 16px;}
+#div-menu-banner #menu .navigation>li>a{color: white;}
+
+/* menu nível 1 */
+#div-menu-banner #menu .navigation>li>ul.sub-menu{
+  display: none;
+  margin-right: 0px;
+  border-radius: 3px;
+  position: absolute;
+  list-style-type: none;
+  background-color: #f9f9f9;
+  padding: 7px 20px 8px 11px;
+  margin-top: 7px;
+  line-height: 2;
+  min-width: 190px;
+  border-left: 3px solid #617832;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* menu níveis 2 e 3 */
+#div-menu-banner #menu .navigation>li>ul.sub-menu>li>ul.sub-menu,
+#div-menu-banner #menu .navigation>li>ul.sub-menu>li>ul.sub-menu>li>ul.sub-menu
+{
+  /* display: none; */
+  list-style-type: none;
+  background-color: #f9f9f9;
+  padding: 7px 20px 8px 20px;
+  line-height: 2;
+  min-width: 215px;
+  z-index: 1;
+}
+#div-menu-banner #menu .navigation>li:hover .sub-menu{display: block;}
+/* #div-menu-banner #menu .navigation>li>.sub-menu>li:hover .sub-menu{display: block;}
+#div-menu-banner #menu .navigation>li>.sub-menu>li>.sub-menu>li:hover .sub-menu{display: block;} */
+#div-menu-banner #menu .navigation>li>.sub-menu>li>a{text-decoration: none; color: #617832;}
+#div-menu-banner #menu .navigation>li>.sub-menu>li>a:hover{text-decoration: none; color: #BCC5A4;}
+#div-menu-banner #menu .navigation>li>.sub-menu>li>ul.sub-menu>li>a{text-decoration: none; color: #617832;}
+#div-menu-banner #menu .navigation>li>.sub-menu>li>ul.sub-menu>li>a:hover{text-decoration: none; color: #BCC5A4;}
+#div-menu-banner #menu .navigation>li>.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li>a{text-decoration: none; color: #617832; font-style: italic; font-size: 14px;}
+#div-menu-banner #menu .navigation>li>.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li>a:hover{text-decoration: none; color: #BCC5A4;}
+#div-menu-banner #menu .navigation>li>a:hover{text-decoration: none;}
 
 /* barra de pesquisa */
-.area-banner-top .area-menu-superior .area-busca-menu .area-busca .btn-procurar {cursor: pointer;float: left; height: 50px; width: 50px; font-size: 25px; text-align: center; padding-top: 10px;background-color: white;border-radius: 0px 30px 30px 0px;}
-.area-banner-top .area-menu-superior .area-busca-menu .area-busca .btn-procurar button{background-color: white; border: 0px;}
+#div-menu-banner .area-menu-superior .area-busca-menu .area-busca .btn-procurar {cursor: pointer;float: left; height: 50px; width: 50px; font-size: 25px; text-align: center; padding-top: 10px;background-color: white;border-radius: 0px 30px 30px 0px;}
+#div-menu-banner .area-menu-superior .area-busca-menu .area-busca .btn-procurar button{outline: none; background-color: white; border: 0px;}
 
 
 /* slides */
-.area-banner-top .slide-principal {display: block; width: 100%; height: 430px; top: -93px;}
-.area-banner-top .slide-principal img {width: 100%; height: 430px; margin-top: -1px;}
-.area-banner-top .slide-principal .carousel-caption {font-size: 38px; color: #FFF; font-weight: bold; text-align: left; padding-bottom: 100px;  line-height:1.2em;}
-.area-banner-top .slide-principal .carousel-indicators {}
-.area-banner-top .slide-principal .carousel-indicators li {margin-bottom: 5px;}
-.area-banner-top .slide-principal .carousel-indicators .lnk-mais-destaques {width: 20px; height: 20px; margin-bottom: 2px; background: #FFF url('/wp-conteudo/themes/templategdf/img/icone-ver-mais.png'); background-position:center;
-background-repeat:no-repeat; }
-.area-banner-top .slide-principal .carousel-inner {}
-.area-banner-top .slide-principal .carousel-inner .item {cursor:pointer;}
-
+.area-banner-top .slide-principal {display: block; width: 100%; height: 433px; }
+.area-banner-top { width: 100%; border-top: 4px solid #617832; height: 433px; border-bottom: 4px solid #617832; margin-top: 10px; margin-bottom: 20px;box-shadow: 0 2px 4px 0 #b9b7b7, 0 -4px 17px 0 #b9b7b7;}
 .area-banner-top-internas .area-menu-superior .area-busca-menu{min-width:920px;}
 
 /* POST */

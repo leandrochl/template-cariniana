@@ -45,6 +45,12 @@
             <h5><a href="http://www.mctic.gov.br/portal">MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES</a></h5>
           </div>
           <div class="col-md-4 col-xs-12 text-right">
+            <div id="div-logo-ibict">
+              <a href="http://www.ibict.br/">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/logo-ibict.gif" alt="">
+              </a>
+            </div>
+            <div class="clearfix"></div>
             <div id="icones">
               <a href="https://www.youtube.com/channel/UC7pJ4CrMcF7WVYsWjic-nsg" target="_blank">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/yt_icon_g.png" class="sn_icon">
@@ -55,7 +61,12 @@
               <a href="https://www.facebook.com/redecariniana" target="_blank">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/fb_icon_g.png" class="sn_icon">
               </a>
+              <button type="button" onclick="window.location.href = '<?php echo get_permalink(get_page_by_path('contatos')) ?>';" target="_blank">
+                <span>Fale conosco</span>
+              </button>
             </div>
+
+
           </div>
         </div>
       </div>
