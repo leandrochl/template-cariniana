@@ -293,9 +293,10 @@ a, a:hover, a:focus {color:#515151;}
   z-index: 1;
 }
 
-/* menu níveis 2 e 3 */
+/* menu níveis 2, 3 e 4 */
 #div-menu-banner #menu .navigation>li>ul.sub-menu>li>ul.sub-menu,
-#div-menu-banner #menu .navigation>li>ul.sub-menu>li>ul.sub-menu>li>ul.sub-menu
+#div-menu-banner #menu .navigation>li>ul.sub-menu>li>ul.sub-menu>li>ul.sub-menu,
+#div-menu-banner #menu .navigation>li>ul.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li>ul.sub-menu
 {
   /* display: none; */
   list-style-type: none;
@@ -306,14 +307,14 @@ a, a:hover, a:focus {color:#515151;}
   z-index: 1;
 }
 #div-menu-banner #menu .navigation>li:hover .sub-menu{display: block;}
-/* #div-menu-banner #menu .navigation>li>.sub-menu>li:hover .sub-menu{display: block;}
-#div-menu-banner #menu .navigation>li>.sub-menu>li>.sub-menu>li:hover .sub-menu{display: block;} */
 #div-menu-banner #menu .navigation>li>.sub-menu>li>a{text-decoration: none; color: #617832;}
 #div-menu-banner #menu .navigation>li>.sub-menu>li>a:hover{text-decoration: none; color: #BCC5A4;}
 #div-menu-banner #menu .navigation>li>.sub-menu>li>ul.sub-menu>li>a{text-decoration: none; color: #617832;}
 #div-menu-banner #menu .navigation>li>.sub-menu>li>ul.sub-menu>li>a:hover{text-decoration: none; color: #BCC5A4;}
-#div-menu-banner #menu .navigation>li>.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li>a{text-decoration: none; color: #617832; font-style: italic; font-size: 14px;}
+#div-menu-banner #menu .navigation>li>.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li>a{text-decoration: none; color: #617832; font-size: 14px;}
 #div-menu-banner #menu .navigation>li>.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li>a:hover{text-decoration: none; color: #BCC5A4;}
+#div-menu-banner #menu .navigation>li>.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li>a{text-decoration: none; color: #617832; font-style: italic; font-size: 14px;}
+#div-menu-banner #menu .navigation>li>.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li>a:hover{text-decoration: none; color: #BCC5A4;}
 #div-menu-banner #menu .navigation>li>a:hover{text-decoration: none;}
 
 /* barra de pesquisa */
