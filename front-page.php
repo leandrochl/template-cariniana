@@ -28,7 +28,13 @@
 <!-- IMAGENS BANNER -->
 <div class="area-banner-top">
   <div id="slide-principal" class="carousel slide slide-principal" data-ride="carousel">
-    <?php echo do_shortcode('[URIS id=162]'); ?>
+    <?php
+      if (get_site_url() == "http://localhost/cariniana") {
+        echo do_shortcode('[URIS id=162]');
+      } else {
+        echo do_shortcode('[URIS id=66]');
+      }
+    ?>
   </div>
 </div>
 
