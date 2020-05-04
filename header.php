@@ -26,7 +26,7 @@
     </div>
     <div id="barra-superior-2">
       <div class="container">
-        <div class="row" style="margin-bottom: 15px;">
+        <div class="row barra-ir-para">
           <div class="col-md-12">
             <div id="ancoras">
               <a href="#ir-para-busca">Ir para busca</a> |
@@ -67,6 +67,23 @@
             </div>
 
 
+          </div>
+          <div id="header-responsivo">
+            <div class="area-busca-responsivo" id="ir-para-busca">
+              <?php get_search_form(); ?>
+            </div>
+            <div class="clearfix"></div>
+            <hr class="divider-responsivo">
+            <div class="area-menu-responsivo" id="ir-para-menu">
+              <div id="menu-responsivo">
+                <?php
+                wp_nav_menu([
+                  'theme_location' => 'top-menu',
+                  'menu_class' => 'navigation'
+                ]);
+              ?>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -51,6 +51,22 @@
               <span class="glyphicon glyphicon-menu-hamburger" id="icon-menu-single"></span>
               <!-- <span class="span-menu">Menu</span> -->
             </div>
+
+            <div id="header-responsivo">
+              <div class="clearfix"></div>
+              <hr class="divider-responsivo">
+              <div class="area-menu-responsivo" id="ir-para-menu">
+                <div id="menu-responsivo">
+                  <?php
+                    wp_nav_menu([
+                      'theme_location' => 'top-menu',
+                      'menu_class' => 'navigation'
+                    ]);
+                  ?>
+                </div>
+              </div>
+            </div>
+
             <div id="arrow-up-single"></div>
             <div class="menu-navigation-header-single" id="menu-navigation-single">
               <div class="row">

@@ -42,39 +42,6 @@
 
   <script defer="defer" src="//barra.brasil.gov.br/barra.js" type="text/javascript"></script>
 
-  <!-- <div id="rodape-mobile">
-    <div class="container">
-      <div class="row margin-bottom-40">
-        <div class="col-md-12">
-          <h4><a href="http://www.df.gov.br/index.php/category/sobre-brasilia/">sobre brasília</a></h4>
-          <h4><a href="http://www.df.gov.br/index.php/category/sobre-o-governo/">sobre o governo</a></h4>
-          <h4><a href="http://www.df.gov.br/index.php/category/programas/">programas</a></h4>
-          <h4><a href="http://www.df.gov.br/index.php/category/servicos/">servicos</a></h4>
-          <h5><a href="http://www.df.gov.br/index.php/category/cidadao/">Cidadão</a></h5>
-          <h5><a href="http://www.df.gov.br/index.php/category/negocios/">Negócios</a></h5>
-          <h5><a href="http://www.df.gov.br/index.php/category/servidor/">Servidor</a></h5>
-          <h5><a href="http://www.df.gov.br/index.php/category/turista/">Turista</a></h5>
-          <h4 class="margin-top-40"><a href="http://www.transparencia.df.gov.br/Pages/inicio.aspx" target="_blank">transparência</a></h4>
-          <h4><a href="http://www.ouvidoria.df.gov.br/" target="_blank">ouvidoria</a></h4>
-          <h4><a href="http://www.df.gov.br/index.php/category/acesso-a-informacao/">Acesso à Informação</a></h4>
-          <h4><a href="javascript:void(0)" id="comunicarErro">comunicar erros</a></h4>
-          <h4><a href="http://www.df.gov.br/index.php/acessibilidade/">acessibilidade</a></h4>
-          <h4><a href="http://www.df.gov.br/index.php/category/duvidas-frequentes/">dúvidas frequentes</a></h4>
-          <h4><a href="http://www.df.gov.br/index.php/fale-com-o-governo/">fale com o governo</a></h4>
-          <div id="icones-rodape">
-            <a href="https://www.youtube.com/user/govdf" target="_blank"><span class="icon-youtube"></span></a>
-            <a href="https://instagram.com/gov_df/" target="_blank"><span class="icon-instagram"></span></a>
-            <a href="https://twitter.com/gov_df" target="_blank"><span class="icon-twitter"></span></a>
-            <a href="https://www.facebook.com/govdf?ref=ts&fref=ts" target="_blank"><span class="icon-facebook"></span></a>
-          </div>
-        </div>
-      </div>
-
-      <h2>GOVERNO DO DISTRITO FEDERAL</h2>
-      <h3>Palácio do Buriti, Praça do Buriti Brasília - DF / CEP 70075-900</h3>
-
-    </div>
-  </div> -->
 </div>
 
 

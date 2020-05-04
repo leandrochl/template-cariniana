@@ -63,6 +63,9 @@
       </div>
       <?php endwhile; wp_reset_postdata(); ?>
     </div>
+    <div class="div-mais-noticias">
+      <a href="<?php echo get_permalink(get_page_by_path('noticias')) ?>">MAIS NOTÍCIAS</a>
+    </div>
   </div>
 
 

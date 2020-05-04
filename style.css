@@ -44,11 +44,10 @@ text-decoration: none;
 }
 
 .noticia-front-box p{
-text-align: justify;
-padding: 0;
-
-line-height: 1.3;
-color: black;
+  text-align: justify;
+  padding: 0;
+  line-height: 1.3;
+  color: black;
 }
 
 .titulo-permalik{
@@ -164,6 +163,9 @@ a, a:hover, a:focus {color:#515151;}
 #topo-site #barra-superior-2 #div-logo-ibict {text-align: right; padding-right: 7px; margin-top: -26px;}
 #topo-site #barra-superior-2 #div-logo-ibict img{width: 120px;cursor: pointer;}
 
+#header-responsivo{
+  display: none;
+}
 #topo-site #barra-superior-single{background-color: white;}
 #topo-site #barra-superior-single .titulo-portal-single a{color: #515151;}
 #topo-site #barra-superior-single h3, h1{font-size: 30px; margin: 0; color: #515151;}
@@ -219,6 +221,11 @@ a, a:hover, a:focus {color:#515151;}
 #barra-superior-single .area-busca-single .btn-procurar{outline: none;cursor: pointer; border-left: 0px; border-right: 1px solid #e3e3e3; border-bottom: 1px solid #e3e3e3; border-top: 1px solid #e3e3e3; float: right; height: 35px; width: 50px; font-size: 15px; text-align: center; padding-top: 10px;background-color: white;border-radius: 0px 30px 30px 0px;}
 #barra-superior-single .area-busca-single .btn-procurar button{outline: none;background-color: white; border: 0px;}
 
+#barra-superior-2 .area-busca-responsivo .txt-busca {outline: none; float: left; height: 35px; width: 250px; border-right: 0px; border-left: 1px solid #e3e3e3; border-bottom: 1px solid #e3e3e3; border-top: 1px solid #e3e3e3; padding-left: 20px; border-radius: 30px 0px 0px 30px;}
+#barra-superior-2 .area-busca-responsivo .search-content {float: right;}
+#barra-superior-2 .area-busca-responsivo .btn-procurar{outline: none;cursor: pointer; border-left: 0px; border-right: 1px solid #e3e3e3; border-bottom: 1px solid #e3e3e3; border-top: 1px solid #e3e3e3; float: right; height: 35px; width: 50px; font-size: 15px; text-align: center; padding-top: 10px;background-color: white;border-radius: 0px 30px 30px 0px;}
+#barra-superior-2 .area-busca-responsivo .btn-procurar button{outline: none;background-color: white; border: 0px;}
+
 
 
 /* FOOTER */
@@ -260,18 +267,19 @@ a, a:hover, a:focus {color:#515151;}
 #div-menu-banner .area-menu-superior .area-busca-menu {float: right; width: 100%; /*background-color: #FFE425;*/ margin-top:2%;}
 #div-menu-banner .area-menu-superior .area-busca-menu .area-busca {height: 50px; width: 46%; float: left;}
 #div-menu-banner .area-menu-superior .area-busca-menu .area-busca .txt-busca {outline: none; float: left; height: 50px; width: 89%; border: 0px; padding-left: 20px; border-radius: 30px 0px 0px 30px;}
-#div-menu-banner .area-menu-superior .area-busca-menu .area-menu {float: left; width: 54%;  font-size: 12px; padding-left: 0;}
+/* #div-menu-banner .area-menu-superior .area-busca-menu .area-menu {float: left; width: 54%;  font-size: 12px; padding-left: 0;}
 #div-menu-banner .area-menu-superior .area-busca-menu .area-menu a{color:#444;}
 #div-menu-banner .area-menu-superior .area-busca-menu .area-menu .menu {list-style-type:none;}
 #div-menu-banner .area-menu-superior .area-busca-menu .area-menu .menu .item {display:inline-block; height: 50px; line-height: 50px; text-align: center; font-weight: 500; font-size:16px;}
 #div-menu-banner .area-menu-superior .area-busca-menu .area-menu .menu .item:hover {color: #345088;}
 #div-menu-banner .area-menu-superior .area-busca-menu .area-menu .menu .item a{text-decoration:none; color: white;}
-#div-menu-banner .area-menu-superior .area-busca-menu .area-menu .menu .item.it1 {width: 2%;margin-left:13px;cursor: pointer} /* menu sanduiche */
-#div-menu-banner .area-menu-superior .area-busca-menu .area-menu .menu .item.it2 {width: 19%;}
+#div-menu-banner .area-menu-superior .area-busca-menu .area-menu .menu .item.it1 {width: 2%;margin-left:13px;cursor: pointer}*/ /* menu sanduiche */
+/* #div-menu-banner .area-menu-superior .area-busca-menu .area-menu .menu .item.it2 {width: 19%;}
 #div-menu-banner .area-menu-superior .area-busca-menu .area-menu .menu .item.it3 {width: 14%;}
 #div-menu-banner .area-menu-superior .area-busca-menu .area-menu .menu .item.it4 {width: 16%;}
-#div-menu-banner .area-menu-superior .area-busca-menu .area-menu .menu .item.it5 {width: 36%;}
+#div-menu-banner .area-menu-superior .area-busca-menu .area-menu .menu .item.it5 {width: 36%;} */
 
+#menu-responsivo{display: none;}
 #div-menu-banner #menu .navigation{list-style-type: none;}
 #div-menu-banner #menu .navigation>li{float: left; margin-right: 30px; font-size: 16px; padding: 16px;}
 #div-menu-banner #menu .navigation>li>a{color: white;}
@@ -399,12 +407,12 @@ a, a:hover, a:focus {color:#515151;}
   background-color: #eee;
 }
 
-.div-mais-fotos{
+.div-mais-fotos, .div-mais-noticias{
   text-align: center;
   margin-top: 50px;
   font-size: 15px;
 }
-.div-mais-fotos a{
+.div-mais-fotos a, .div-mais-noticias a{
   text-decoration: none;
   color: white;
   background-color: #617832;
@@ -412,7 +420,7 @@ a, a:hover, a:focus {color:#515151;}
   border: 3px solid #617832;
   border-radius: 30px;
 }
-.div-mais-fotos a:hover{
+.div-mais-fotos a:hover, .div-mais-noticias a:hover{
   text-decoration: none;
   color: #617832;
   background-color: white;
@@ -443,7 +451,7 @@ a, a:hover, a:focus {color:#515151;}
   margin-top: 80px;
 }
 .hr-redes-sociais{
-  border: 1px solid #BCC5A4;;
+  border: 1px solid #BCC5A4;
 }
 .feed-twitter{
   border-right: 0.5px solid #eee;
@@ -452,4 +460,143 @@ a, a:hover, a:focus {color:#515151;}
 .feed-facebook{
   border-left: 0.5px solid #eee;
   padding-left: 40px;
+}
+
+.barra-ir-para{
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 991px) {
+
+  .noticia-front-box{
+    margin-bottom: 45px;
+  }
+
+  #div-logo-ibict{
+    text-align: left !important;
+    margin-top: 15px !important;
+  }
+
+  #topo-site #barra-superior-2 #icones{
+    margin-top: 17px;
+    margin-bottom: 72px;
+  }
+
+  #topo-site #barra-superior-2 #icones button{
+    float: left;
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+
+  #topo-site #barra-superior-2 #icones a{
+    float: left;
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+
+  .titulo-portal{
+    text-align: center;
+  }
+
+  .titulo-portal img{
+    float: none !important;
+  }
+
+  #topo-site #barra-superior-2 .titulo-portal h1, h5{
+    text-align: center;
+  }
+
+  .titulo-permalik{
+    text-align: center;
+  }
+
+  .barra-ir-para{
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  #div-menu-banner{
+    display: none;
+  }
+
+  #barra-superior-2 .area-busca-responsivo .search-content{
+    float: none !important;
+    margin-left: 17px;
+  }
+
+  #barra-superior-2 .area-busca-responsivo .btn-procurar{
+    float: left !important;
+  }
+
+  #menu-responsivo{
+    display: block;
+  }
+
+  #menu-responsivo .navigation{list-style-type: none; text-align: center;}
+  #menu-responsivo .navigation>li{font-size: 16px; padding: 16px;}
+  #menu-responsivo .navigation>li>a{color: #617832;}
+
+  /* menu nível 1 */
+  #menu-responsivo .navigation>li>ul.sub-menu{
+    display: none;
+    margin-right: 0px;
+    border-radius: 3px;
+    /* position: absolute; */
+    list-style-type: none;
+    background-color: #f9f9f9;
+    padding: 7px 20px 8px 11px;
+    margin-top: 7px;
+    line-height: 2;
+    min-width: 190px;
+    border-left: 3px solid #617832;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* menu níveis 2, 3 e 4 */
+  #menu-responsivo .navigation>li>ul.sub-menu>li>ul.sub-menu,
+  #menu-responsivo .navigation>li>ul.sub-menu>li>ul.sub-menu>li>ul.sub-menu,
+  #menu-responsivo .navigation>li>ul.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li>ul.sub-menu
+  {
+    /* display: none; */
+    list-style-type: none;
+    background-color: #f9f9f9;
+    padding: 7px 20px 8px 20px;
+    line-height: 2;
+    min-width: 215px;
+    z-index: 1;
+  }
+  #menu-responsivo .navigation>li:hover .sub-menu{display: block;}
+  #menu-responsivo .navigation>li>.sub-menu>li>a{text-decoration: none; color: #617832;}
+  #menu-responsivo .navigation>li>.sub-menu>li>a:hover{text-decoration: none; color: #BCC5A4;}
+  #menu-responsivo .navigation>li>.sub-menu>li>ul.sub-menu>li>a{text-decoration: none; color: #617832;}
+  #menu-responsivo .navigation>li>.sub-menu>li>ul.sub-menu>li>a:hover{text-decoration: none; color: #BCC5A4;}
+  #menu-responsivo .navigation>li>.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li>a{text-decoration: none; color: #617832; font-size: 14px;}
+  #menu-responsivo .navigation>li>.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li>a:hover{text-decoration: none; color: #BCC5A4;}
+  #menu-responsivo .navigation>li>.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li>a{text-decoration: none; color: #617832; font-style: italic; font-size: 14px;}
+  #menu-responsivo .navigation>li>.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li>a:hover{text-decoration: none; color: #BCC5A4;}
+  #menu-responsivo .navigation>li>a:hover{text-decoration: none;}
+
+  .div-icon-menu-single{
+    display: none;
+  }
+
+  #header-responsivo{
+    display: block;
+  }
+
+  #barra-superior-single .area-busca-single .search-content{
+    float: none !important;
+    margin-left: 17px;
+    margin-top: 30px;
+  }
+
+  #barra-superior-single .area-busca-single .btn-procurar{
+    float: left !important;
+  }
+
+  #rodape-principal{
+    text-align: center;
+  }
+  
 }
