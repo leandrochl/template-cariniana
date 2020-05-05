@@ -187,9 +187,9 @@ a, a:hover, a:focus {color:#515151;}
 /* MENU PÁGINAS INTERNAS */
 .menu-navigation-header-single{
     display: none;
-    width: 1183px;
+    width: 1300px;
     height: auto;
-    margin-left: -719px;
+    margin-left: -817px;
     margin-top: 19px;
     position: absolute;
     background-color: #F5F5F5;
@@ -214,7 +214,7 @@ a, a:hover, a:focus {color:#515151;}
 
 #menu-single .navigation{list-style-type: none;}
 #menu-single .navigation>li{float: left; margin-right: 30px; font-size: 16px; padding: 16px;}
-#menu-single .navigation>li>a{color: #617832; font-weight: 500;}
+#menu-single .navigation>li>a{color: #617832; font-weight: 500;font-size: 19px;cursor: unset}
 
 /* menu nível 1 */
 #menu-single .navigation>li>ul.sub-menu{
@@ -239,9 +239,10 @@ a, a:hover, a:focus {color:#515151;}
 #menu-single .navigation>li>ul.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li>ul.sub-menu
 {
   /* display: none; */
-  list-style-type: none;
+  list-style-type: square;
   /* background-color: #f9f9f9; */
-  padding: 7px 20px 8px 20px;
+  padding: 7px 13px 8px 20px;
+  margin-left: 12px;
   line-height: 2;
   min-width: 215px;
   z-index: 1;
