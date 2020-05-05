@@ -3,7 +3,7 @@
 <div id="conteudo-portal" class="conteudo-portal">
   <div class="container">
     <div class="link_home">
-      <span class="glyphicon glyphicon-home"></span>   <?php echo bcn_display(); ?>
+      <?php echo bcn_display(); ?>
     </div>
     <div class="titulo-page">
       <h1>Resultados da busca para "<?php echo get_search_query(); ?>"</h1>

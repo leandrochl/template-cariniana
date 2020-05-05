@@ -3,7 +3,7 @@
 <div id="conteudo-portal" class="conteudo-portal">
   <div class="container">
     <div class="link_home">
-      <span class="glyphicon glyphicon-home"></span>   <?php echo bcn_display(); ?>
+      <?php echo bcn_display(); ?>
     </div>
     <div class="conteudo-page">
       <div class="titulo-page">
