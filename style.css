@@ -308,7 +308,7 @@ a, a:hover, a:focus {color:#515151;}
 #div-menu-banner .area-menu-superior .img-logo {float: left; height: 50px; width: 190px; margin-right: 20px;}
 #div-menu-banner .area-menu-superior .img-logo img {width: 100%;}
 #div-menu-banner .area-menu-superior .area-busca-menu {float: right; width: 100%; /*background-color: #FFE425;*/ margin-top:2%;}
-#div-menu-banner .area-menu-superior .area-busca-menu .area-busca {height: 50px; width: 46%; float: left;}
+#div-menu-banner .area-menu-superior .area-busca-menu .area-busca {height: 50px; width: 46%; float: left;margin-left: 26px;}
 #div-menu-banner .area-menu-superior .area-busca-menu .area-busca .txt-busca {outline: none; float: left; height: 50px; width: 89%; border: 0px; padding-left: 20px; border-radius: 30px 0px 0px 30px;}
 /* #div-menu-banner .area-menu-superior .area-busca-menu .area-menu {float: left; width: 54%;  font-size: 12px; padding-left: 0;}
 #div-menu-banner .area-menu-superior .area-busca-menu .area-menu a{color:#444;}
@@ -476,7 +476,7 @@ a, a:hover, a:focus {color:#515151;}
   margin-top: 15px;
   font-size: 14px;
 }
-.link_home a{
+.link_home, .link_home a{
   color: #617832;
   text-decoration: none;
 }
