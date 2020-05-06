@@ -61,6 +61,9 @@
               <a href="https://www.facebook.com/redecariniana" target="_blank">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/fb_icon_g.png" class="sn_icon">
               </a>
+              <a href="https://www.instagram.com/redecariniana/" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/ig_icon_g.png" class="sn_icon">
+              </a>
               <button type="button" onclick="window.location.href = '<?php echo get_permalink(get_page_by_path('contatos')) ?>';" target="_blank">
                 <span>Fale conosco</span>
               </button>
