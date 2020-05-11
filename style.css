@@ -350,9 +350,11 @@ a, a:hover, a:focus {color:#515151;}
 #div-menu-banner #menu .navigation>li>ul.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li>ul.sub-menu
 {
   /* display: none; */
-  list-style-type: none;
+  list-style-type: square;
   background-color: #f9f9f9;
-  padding: 7px 20px 8px 20px;
+  color: #617832;
+  padding: 7px 13px 8px 20px;
+  margin-left: 12px;
   line-height: 2;
   min-width: 215px;
   z-index: 1;
@@ -509,6 +511,31 @@ a, a:hover, a:focus {color:#515151;}
 .barra-ir-para{
   margin-bottom: 15px;
 }
+
+.form-fale-conosco{
+  padding: 18px;
+  background-color: #eee;
+  border-bottom: 1px solid red;
+}
+
+.div-contato-footer{
+  font-size: 16px;
+  margin-top: 30px;
+  color: white;
+  line-height: 1.4;
+}
+
+.div-contato-footer svg{
+  font-size: 17px;
+  margin-right: 7px;
+}
+.div-contato-footer .fa-skype{
+  font-size: 19px;
+  margin-right: 7px;
+}
+
+
+
 
 @media screen and (max-width: 991px) {
 

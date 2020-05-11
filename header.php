@@ -15,15 +15,12 @@
 <body>
   <div id="topo-site">
     <div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0 10px;display:block;">
-      <ul id="menu-barra-temp" style="list-style:none;">
-        <li style="display:inline; float:left;padding-right:10px; margin-right:10px; border-right:1px solid #EDEDED">
-          <a href="http://brasil.gov.br" style="font-family:sans,sans-serif; text-decoration:none; color:white;">Portal do Governo Brasileiro</a>
-        </li>
-        <li>
-          <a style="font-family:sans,sans-serif; text-decoration:none; color:white;" href="http://epwg.governoeletronico.gov.br/barra/atualize.html">Atualize sua Barra de Governo</a>
-        </li>
-      </ul>
-    </div>
+  <ul id="menu-barra-temp" style="list-style:none;">
+    <li style="display:inline; float:left;padding-right:10px; margin-right:10px; border-right:1px solid #EDEDED">
+        <a href="http://brasil.gov.br" style="font-family:sans,sans-serif; text-decoration:none; color:white;">Portal do Governo Brasileiro</a>
+    </li>
+  </ul>
+</div>
     <div id="barra-superior-2">
       <div class="container">
         <div class="row barra-ir-para">
@@ -64,7 +61,7 @@
               <a href="https://www.instagram.com/redecariniana/" target="_blank">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/ig_icon_g.png" class="sn_icon">
               </a>
-              <button type="button" onclick="window.location.href = '<?php echo get_permalink(get_page_by_path('contatos')) ?>';" target="_blank">
+              <button type="button" onclick="window.location.href = '<?php echo get_permalink(get_page_by_path('fale-conosco')) ?>';" target="_blank">
                 <span>Fale conosco</span>
               </button>
             </div>
