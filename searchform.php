@@ -3,7 +3,7 @@
     <input type="text" value="<?php the_search_query(); ?>" class="txt-busca" placeholder="Buscar no portal" name='s' id='search' required />
     <div class="btn-procurar">
       <button type="submit" name="button">
-        <span class="glyphicon glyphicon-search"></span>
+        <span class="fa fa-search"></span>
       </button>
     </div>
   </div>

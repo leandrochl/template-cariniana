@@ -48,8 +48,7 @@
               <?php get_search_form(); ?>
             </div>
             <div class="div-icon-menu-single" id="ir-para-menu">
-              <span class="glyphicon glyphicon-menu-hamburger" id="icon-menu-single"></span>
-              <!-- <span class="span-menu">Menu</span> -->
+              <span class="fa fa-bars" id="icon-menu-single"></span>
             </div>
 
             <div id="header-responsivo">

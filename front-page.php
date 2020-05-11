@@ -3,27 +3,27 @@
 <!-- BANNER -->
 <!-- MENU BANNER -->
 <div class="container">
-<div id="div-menu-banner">
-  <div class="container area-menu-superior">
-    <div class="area-busca-menu" id="ir-para-busca">
-      <div id="fundo-menu"></div>
-      <div class="area-menu" id="ir-para-menu">
-        <div id="menu">
-          <?php
+  <div id="div-menu-banner">
+    <div class="container area-menu-superior">
+      <div class="area-busca-menu" id="ir-para-busca">
+        <div id="fundo-menu"></div>
+        <div class="area-menu" id="ir-para-menu">
+          <div id="menu">
+            <?php
             wp_nav_menu([
               'theme_location' => 'top-menu',
               'menu_class' => 'navigation'
             ]);
           ?>
+          </div>
         </div>
+        <div class="area-busca" id="ir-para-busca">
+          <?php get_search_form(); ?>
+        </div>
+        <div class="clearfix"></div>
       </div>
-      <div class="area-busca" id="ir-para-busca">
-        <?php get_search_form(); ?>
-      </div>
-      <div class="clearfix"></div>
     </div>
   </div>
-</div>
 </div>
 <!-- IMAGENS BANNER -->
 <div class="area-banner-top">
@@ -85,14 +85,16 @@
   <div class="container" id="container-redes-sociais">
     <h1>A Rede Cariniana nas redes sociais</h1>
     <hr class="hr-redes-sociais">
-    <div class="col-md-6 col-xs-12 feed-twitter">
-      <div class="feed">
-        <?php echo do_shortcode('[fts_twitter twitter_name=Rede_Cariniana tweets_count=6 cover_photo=yes stats_bar=no show_retweets=no show_replies=no]'); ?>
+    <div class="row">
+      <div class="col-md-6 col-xs-12 feed-twitter">
+        <div class="feed">
+          <?php echo do_shortcode('[fts_twitter twitter_name=Rede_Cariniana tweets_count=6 cover_photo=yes stats_bar=no show_retweets=no show_replies=no]'); ?>
+        </div>
       </div>
-    </div>
-    <div class="col-md-6 col-xs-12 feed-facebook">
-      <div class="feed">
-        <?php echo do_shortcode('[fts_facebook type=page id=244388439019815 access_token=EAAP9hArvboQBAIGZCPYLQXG5f8yfSfXoC87R0GfuUf2sU2DdTY1LOlZC7yDkztMlQ849ZAcWAsuZCqlLXKmZCtir777tcPUYA7xduHYFZCSeKGzLrJf4ciTmJZC9riXARK41RLJxT60dj8zn7s9E6I3sZBJ6mkBAkuFTZBRU0OhptyAZDZD posts=6 description=yes posts_displayed=page_only images_align=left]'); ?>
+      <div class="col-md-6 col-xs-12 feed-facebook">
+        <div class="feed">
+          <?php echo do_shortcode('[fts_facebook type=page id=244388439019815 access_token=EAAP9hArvboQBAIGZCPYLQXG5f8yfSfXoC87R0GfuUf2sU2DdTY1LOlZC7yDkztMlQ849ZAcWAsuZCqlLXKmZCtir777tcPUYA7xduHYFZCSeKGzLrJf4ciTmJZC9riXARK41RLJxT60dj8zn7s9E6I3sZBJ6mkBAkuFTZBRU0OhptyAZDZD posts=6 description=yes posts_displayed=page_only images_align=left]'); ?>
+        </div>
       </div>
     </div>
   </div>
